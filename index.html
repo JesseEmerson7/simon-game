@@ -1,16 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/index.css" />
     <title>Simon Game</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- header for score and title -->
     <header>
-        <h1 id="title">Simon</h1>
+      <div class="flex-row score-divs">
+        <p>High Score:</p>
+        <div id="high-score-number" class="score-m">0</div>
+      </div>
+      <div id="title" class="center">
+        <h1 >Simon</h1>
+        <p>Try and remember the pattern!</p>
+      </div>
+
+      <div class="flex-row score-divs">
+        <p>Current Score:</p>
+        <div id="current-score" class="score-m">0</div>
+      </div>
     </header>
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <main>
+        <!-- starting div for simon game -->
+        <section>
+            <!-- section with buttons -->
+            <div>
+                <!-- top 2 buttons -->
+                <div>
+                    <button>Green</button>
+                    <button>Red</button>
+                </div>
+                <!-- logo -->
+                <div>
+                    <h2>Simon</h2>
+                </div>
+                <!-- bottom 2 -->
+                <div>
+                    <button>yellow</button>
+                    <button>blue</button>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
     <script src="./assets/index.js"></script>
-</body>
+  </body>
 </html>

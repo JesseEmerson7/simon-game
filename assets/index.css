@@ -69,3 +69,24 @@ main{
     /* border-radius: 100%; */
     /* padding: 70px; */
 }
+
+#one{
+    background-color: green;
+}
+
+#two{
+    background-color: red;
+}
+
+#three{
+    background-color: yellow;
+}
+
+#four{
+    background-color: blue;
+    color: white;
+}
+
+.input{
+    padding: 40px;
+}

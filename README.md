@@ -1,2 +1,2 @@
 # simon-game
-A Simon game made using HTML, CSS, and JQuery JavaScript.
+A Simon game made using HTML, CSS, JQuery, and JavaScript.
